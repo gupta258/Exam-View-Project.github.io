@@ -193,7 +193,6 @@ body {
 
 .sticky-stopper {
     border-bottom: 1px solid var(--image-border);
-    padding-top: 5%;
     opacity: 80%;
 }
 
