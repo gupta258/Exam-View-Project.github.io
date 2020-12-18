@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-CuOF+2SnTUfTwSZjCXf01h7uYhfOBuxIhGKPbfEJ3+FqH/s6cIFN9bGr1HmAg4fQ" crossorigin="anonymous">
+    <link href="css/about us.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/about-us-responsive.css">
+</head>
+
+<body>
+    <div class="container-fluid" id="top">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <header class="mt-5">
+                    <nav class="navbar navbar-expand-lg navbar-light mb-5">
+                        <div class="container">
+                            <a class="navbar-brand" href="index.html">LOGO</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ml-auto ">
+                                    <li class="nav-item mt-1">
+                                        <a class="nav-link mr-3 bolds" href="#">Practice</a>
+                                    </li>
+                                    <li class="nav-item mt-1">
+                                        <a class="nav-link mr-3 bolds" href="#">Free Resources</a>
+                                    </li>
+                                    <li class="nav-item mt-1">
+                                        <a class="nav-link mr-3 active bolds" href="#">Blog</a>
+                                    </li>
+                                    <li class="nav-item mt-1">
+                                        <a class="nav-link mr-3 bolds" href="#">About Us</a>
+                                    </li>
+                                    <div class="start">
+                                        <a class="btn btn-start" data-toggle="modal" data-target="#signup" onclick="loadModal(0)">Get Started Now</a>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </header>
+                <div class="row pt-5 pb-4">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <p class="about-head">About Us.</p>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="about-para">Examview was created to help premedical students navigate the challenges of preparing for the MCAT. Our platform offers services geared towards enhancing MCAT content mastery through a personalized study plan, classroom
+                                    style lectures, and one-on-one tutoring. We are here to help you maximize MCAT resources affordably. The content experts will ensure that you are well prepared for the MCAT by coupling content with test-taking strategies.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+    <section class="section2-bg overflow-hidden">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row mt-5 mb-5 bg-color">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10 text-center">
+                        <p class="about-mid-head mb-5">Our proven ptr method</p>
+                        <div class="row my-responsive-row">
+                            <div class="col-lg-4">
+                                <div class="card my-card">
+                                    <div class="card-body my-card-body text-left">
+                                        <p class="mb-0 card-number bolds">01</p>
+                                        <p class="mb-2 card-head bolds">PLAN</p>
+                                        <p class="mb-0 card-desc">Detailed MCAT study plan with built in activities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card my-card">
+                                    <div class="card-body my-card-body text-left">
+                                        <p class="mb-0 card-number bolds">02</p>
+                                        <p class="mb-2 card-head bolds">TEACH</p>
+                                        <p class="mb-0 card-desc">Detailed MCAT study plan with built in activities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card my-card">
+                                    <div class="card-body my-card-body text-left">
+                                        <p class="mb-0 card-number">03</p>
+                                        <p class="mb-2 card-head bolds">REINFORCE</p>
+                                        <p class="mb-0 card-desc">Detailed MCAT study plan with built in activities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button data-toggle="modal" data-target="#signup" onclick="loadModal(0)" class="btn btn-join-now mt-5">Join now</button>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+    <section class="section3-bg overflow-hidden">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row  mt-5 mb-5">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <p class="section3-head text-center mb-5 bolds">Take advantage of what we offer</p>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card section3-card">
+                                    <div class="card-body section3-card-body">
+                                        <p class="card-section3-head mb-1 bolds">Personalized Study Plan</p>
+                                        <p class="card-section3-desc mb-0">We are here to provide you with a personalized daily plan so that you can increase productivity as you prepare for the MCAT. We will provide an outline of daily MCAT activities so that you know exactly what you
+                                            need
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card section3-card">
+                                    <div class="card-body section3-card-body">
+                                        <p class="card-section3-head mb-1 bolds">MCAT Lecture</p>
+                                        <p class="card-section3-desc mb-0">Our daily MCAT lectures over high yield MCAT concepts will help solidify the content areas in which you may be needing. Our classroom style lectures will enable you to quickly grasp concepts and skills.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card section3-card">
+                                    <div class="card-body section3-card-body">
+                                        <p class="card-section3-head mb-1 bolds">One-on-One tutoring</p>
+                                        <p class="card-section3-desc mb-0">Work with our experienced tutors to help you on an individual basis. Our skilled MCAT tutors will ensure that all your questions are addressed and concepts are solidified. In addition, you will have the opportunity
+                                            to follow-up on any question you may have after the tutoring session.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+    <section class="section2-bg overflow-hidden">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <div class="row mt-5 mb-5">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-10">
+                        <p class="section3-head text-center mb-5 bolds text-decoration-underline">Our plans</p>
+                        <div class="row my-responsive-row">
+                            <div class="col-lg-4">
+                                <div class="card section4-card">
+                                    <div class="card-body section4-card-body">
+                                        <p class="card-section4-head mb-3 bolds">BASIC</p>
+                                        <p class="card-section4-desc mb-5">Individualized MCAT study plan</p>
+                                        <a href="#top" class="section4-join">Join now <img width="35" src="./img/arrow.svg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card section4-middle-card">
+                                    <div class="card-body section4-card-middle-body">
+                                        <p class="card-section4-head mb-4 bolds">BASIC</p>
+                                        <p class="card-section4-desc mb-3">MCAT Study Schedule</p>
+                                        <p class="card-section4-desc mb-5">3 lectures a week</p>
+                                        <a href="#top" class="section4-join">Join now <img width="35" src="./img/arrow.svg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card section4-card">
+                                    <div class="card-body section4-card-body">
+                                        <p class="card-section4-head mb-3 bolds">BASIC</p>
+                                        <p class="card-section4-desc mb-5">Individualized MCAT study plan</p>
+                                        <a href="#top" class="section4-join">Join now <img width="35" src="./img/arrow.svg"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                </div>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </section>
+    <div class="sticky-stopper"></div>
+    <footer class="footer pb-4 container mt-5 mb-3">
+        <div class="row ">
+            <div class="col-lg-3 pl-0">
+                <ul class="footer-menu ">
+                    <li><a href="#" class="footer-links">ABOUT US</a></li>
+                    <li><a href="#" class="footer-links">EVENTS</a></li>
+                    <li><a href="#" class="footer-links">BLOGS</a></li>
+                    <li><a href="#" class="footer-links">CONTACT US</a></li>
+                    <li><a href="#" class="footer-links">PRIVACY POLICY</a></li>
+                    <li><a href="#" class="footer-links">TERMS & CONDITION</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center">
+                <div class="footer-subscribe">
+                    <h3 class="mt-0 bolds top-head">Subscribe to get latest updates</h3>
+                    <form class="subscribe mt-2">
+                        <input class="form-control" placeholder="YOUR EMAIL ADDRESS" name="subscribe">
+                        <button type="submit" class="btn btn-sub mt-3">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-3 connect">
+                <p>CONNECT</p>
+                <div class="socials mb-20">
+                    <a href="#" target="_blank" class="social social-facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank" class="social social-instagram" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" class="social social-linkedin" aria-label="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" style="top: 15%;" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-mine">
+                <!--Signup-->
+                <div class="modal-content mine-modal">
+                    <div class="modal-body">
+                        <img type="button" class="cross" data-dismiss="modal" src="./img/cross-sign.svg">
+                        <div class="ml-4 mr-4">
+                            <h5 class="modal-title signup-title mt-1 semibold text-capitalize" id="exampleModalLabel">welcome</h5>
+                            <p class="your-name semibold mt-4 text-capitalize mb-2">your name</p>
+                            <input type="text" class="form-control form-place" placeholder="Eg: Abhishek Jain" aria-label="Name">
+                            <p class="your-name semibold mt-3 text-capitalize mb-2">your email address</p>
+                            <input type="text" class="form-control form-place" placeholder="Eg: abhisjain1508@gmail.com" aria-label="Email">
+                            <p class="your-name semibold mt-3 mb-2 text-capitalize">your password</p>
+                            <input type="text" class="form-control form-place" placeholder="* * * * * * * * *" aria-label="Password">
+                            <button class="btn btn-signup btn-red semibold text-capitalize" onclick="loadModal(0)">Signup</button>
+                            <p class="mt-2 last-signup">Already a part of examview family? <a href="#" class="log-in" onclick="loadModal(1)">Log In</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Login-->
+                <div class="modal-content mine-modal-login mine-modal">
+                    <div class="modal-body">
+                        <img type="button" class="cross" data-dismiss="modal" src="./img/cross-sign.svg">
+                        <div class="ml-4 mr-4">
+                            <h5 class="modal-title signup-title mt-1 semibold text-capitalize" id="exampleModalLabel3">welcome back</h5>
+                            <p class="your-name semibold mt-4 mb-2 text-capitalize">your email address</p>
+                            <input type="text" class="form-control form-place mb-3" placeholder="Eg: abhisjain1508@gmail.com" aria-label="Email">
+                            <p class="your-name semibold mt-4 mb-2 text-capitalize">your password</p>
+                            <input type="text" class="form-control form-place mb-3" placeholder="* * * * * * *" aria-label="City">
+                            <button class="btn btn-signup semibold text-capitalize btn-red">login</button>
+                            <p class="mt-2 last-signup">Not a part of examview family? <a href="#" class="log-in" onclick="loadModal(0)">Signup</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy" crossorigin="anonymous"></script>
+    <script src="./js/blog.js"></script>
+</body>
+
+</html>

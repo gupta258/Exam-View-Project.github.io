@@ -1,0 +1,36 @@
+<div class="modal fade" style="top: 15%;" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-mine">
+                <!--Signup-->
+                <div class="modal-content mine-modal">
+                    <div class="modal-body">
+                        <img type="button" class="cross" data-dismiss="modal" src="./img/cross-sign.svg">
+                        <div class="ml-4 mr-4">
+                            <h5 class="modal-title signup-title mt-1 semibold text-capitalize" id="exampleModalLabel">welcome</h5>
+                            <p class="your-name semibold mt-2 text-capitalize">your name</p>
+                            <input type="text" class="form-control form-place" placeholder="Eg: Abhishek Jain" aria-label="Name">
+                            <p class="your-name semibold mt-1 text-capitalize">your email address</p>
+                            <input type="text" class="form-control form-place" placeholder="Eg: abhisjain1508@gmail.com" aria-label="Email">
+                            <p class="your-name semibold mt-1 text-capitalize">your password</p>
+                            <input type="text" class="form-control form-place" placeholder="* * * * * * * * *" aria-label="Password">
+                            <button class="btn btn-signup btn-red semibold text-capitalize" onclick="loadModal(0)">Signup</button>
+                            <p class="mt-1 last-signup">Already a part of examview family? <a href="#" class="log-in" onclick="loadModal(1)">Log In</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!--Login-->
+                <div class="modal-content mine-modal-login mine-modal">
+                    <div class="modal-body">
+                        <img type="button" class="cross" data-dismiss="modal" src="./img/cross-sign.svg">
+                        <div class="ml-4 mr-4">
+                            <h5 class="modal-title signup-title mt-1 semibold text-capitalize" id="exampleModalLabel3">welcome back</h5>
+                            <p class="your-name semibold mt-2 text-capitalize">your email address</p>
+                            <input type="text" class="form-control form-place mb-3" placeholder="Eg: abhisjain1508@gmail.com" aria-label="Email">
+                            <p class="your-name semibold mt-1 text-capitalize">your password</p>
+                            <input type="text" class="form-control form-place mb-3" placeholder="* * * * * * *" aria-label="City">
+                            <button class="btn btn-signup semibold text-capitalize btn-red">login</button>
+                            <p class="mt-1 last-signup">Not a part of examview family? <a href="#" class="log-in" onclick="loadModal(0)">Signup</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

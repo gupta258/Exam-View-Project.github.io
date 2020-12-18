@@ -1,0 +1,101 @@
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    ul.nav.navbar-nav {
+        width: 100%;
+        padding: 0px 15px;
+        margin: 0 !important;
+        text-align: left;
+        padding-top: 15px;
+    }
+    li.dropdown.open ul.dropdown-menu {
+        display: block !important;
+    }
+    li.dropdown ul.dropdown-menu {
+        display: none !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 0px;
+    }
+    a.btn.btn-red {
+        margin-left: 0 !important;
+    }
+    .collapse.navbar-collapse.js-navbar-collapse {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .collapse.navbar-collapse.js-navbar-collapsing {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 0px;
+    }
+    .footer-subscribe {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 2em;
+        margin-top: 2em;
+        margin-left: 0;
+    }
+    footer .subscribe input.form-control {
+        width: 100%;
+    }
+    .modal-mine {
+        width: 70%;
+        left: 13%;
+    }
+    .btn-start {
+        display: none;
+    }
+    .header-top {
+        margin-top: 60px;
+    }
+    .blogs {
+        text-align: center;
+    }
+    .recent-story-main {
+        display: flex;
+        flex-direction: column;
+    }
+    .recent-story-main .recent-story-col {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .btn-sub {
+        margin-left: 32%;
+    }
+    .margin-left {
+        margin-left: 0px;
+    }
+    .margin-right {
+        margin-right: 0px;
+    }
+    .margin-left-more {
+        margin-left: 0px;
+    }
+    .margin-right-more {
+        margin-right: 0px;
+    }
+    .navbar {
+        margin: 40px 0px 38px 0px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1366px) {
+    .margin-left {
+        margin-left: 0px;
+    }
+    .margin-right {
+        margin-right: 0px;
+    }
+    .margin-left-more {
+        margin-left: 0px;
+    }
+    .margin-right-more {
+        margin-right: 0px;
+    }
+    .navbar {
+        margin: 40px 0px 38px 0px;
+    }
+}

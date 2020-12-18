@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--body-background);
+    font-family: regular;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --body-background: #FCFCFC;
+    --started: #FF6575;
+    --started-hover: #EE394C;
+    --nav-link-text-color: #504F4F;
+    --text-color: #ffffff;
+    --image-border: #707070;
+    --read-more: #FF5959;
+    --sub: #C7C7C7;
+    --card-text-color: #4A4E4D;
+    --section2-method: #463D80;
+    --card-number: #F1F1F1;
+    --section2-cards: #59518D;
+    --section2-bg: #F7F7F7;
+    --section3-bold-color: #080D1B;
+    --section4-middle-card-border: #463D80;
+}
+
+@font-face {
+    font-family: bolds;
+    src: url(../font/Proxima\ Nova\ Bold.otf);
+}
+
+@font-face {
+    font-family: semibold;
+    src: url(../font/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(../font/ProximaNova-Regular.otf);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(../font/GothamBold.ttf);
+}
+
+@font-face {
+    font-family: proxima-extrabold;
+    src: url(../font/Proxima\ Nova\ Extrabold.otf);
+}
+
+.bolds {
+    font-family: bolds;
+}
+
+.nav-link {
+    font-size: 14px;
+    color: var(--nav-link-text-color);
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.btn-start {
+    color: var(--text-color);
+    background-color: var(--started);
+    box-shadow: 2px 4px 24px #00000033;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 14px;
+}
+
+.btn-start:hover {
+    color: var(--text-color);
+    background: var(--started-hover);
+    box-shadow: 2px 6px 28px #00000026;
+}
+
+.about-head {
+    color: var(--nav-link-text-color);
+    font-size: 64px;
+    font-family: proxima-extrabold;
+}
+
+.about-para {
+    color: var(--card-text-color);
+}
+
+.section2-bg {
+    background: var(--section2-bg);
+}
+
+.bg-color {
+    background-color: var(--section2-method);
+    padding: 54px 0px;
+}
+
+.about-mid-head {
+    color: var(--text-color);
+    font-size: 40px;
+}
+
+.my-card {
+    background-color: var(--section2-cards) !important;
+    box-shadow: 0px 4px 24px #0000001F !important;
+    border-radius: 8px !important;
+}
+
+.my-card-body {
+    padding: 16px 16px 35px 16px !important;
+    background: var(--section2-cards) !important;
+    border-radius: 8px !important;
+}
+
+.card-number {
+    color: var(--card-number);
+    font-size: 14px;
+}
+
+.card-head {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.card-desc {
+    color: var(--text-color);
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+.btn-join-now {
+    padding: 8px 45px 8px 45px;
+    color: var(--text-color);
+    background-color: var(--started);
+    box-shadow: 2px 4px 24px #00000033;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.btn-join-now:hover {
+    color: var(--text-color);
+    background-color: var(--started-hover);
+}
+
+.section3-head {
+    font-size: 40px;
+    color: var(--section3-bold-color);
+}
+
+.section3-card {
+    border: none;
+    background-color: transparent;
+}
+
+.section3-card-body {
+    background-color: transparent;
+}
+
+.card-section3-head {
+    font-size: 24px;
+    color: var(--section3-bold-color);
+}
+
+.card-section3-desc {
+    color: var(--card-text-color);
+    font-size: 16px;
+}
+
+.card-section4-head {
+    font-size: 20px;
+    color: var(--section3-bold-color);
+}
+
+.section4-join {
+    color: var(--read-more);
+    font-size: 18px;
+}
+
+.section4-card {
+    border-radius: 8px;
+    box-shadow: 1px 4px 18px #00000014;
+    border: none;
+    margin-top: 20px;
+}
+
+.section4-middle-card {
+    border: 2px solid var(--section4-middle-card-border);
+    box-shadow: 2px 4px 24px #0000001F;
+    border-radius: 8px;
+}
+
+.sticky-stopper {
+    border-bottom: 1px solid var(--image-border);
+    padding-top: 5%;
+    opacity: 80%;
+}
+
+.socials i {
+    padding: 10px;
+    color: #4e4e4e;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.socials .fa-facebook-f {
+    background: #e2e2e2;
+}
+
+.socials .fa-instagram {
+    background: #e2e2e2;
+}
+
+.socials .fa-linkedin-in {
+    background: #e2e2e2;
+}
+
+.socials i:hover {
+    color: white;
+}
+
+.socials .fa-facebook-f:hover {
+    background: #ff5959;
+}
+
+.socials .fa-instagram:hover {
+    background: #ff5959;
+}
+
+.socials .fa-linkedin-in:hover {
+    background: #ff5959;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-menu {
+    padding-left: 0;
+}
+
+.footer-links {
+    font-size: 14px;
+    color: var(--nav-link-text-color);
+    line-height: 2;
+}
+
+.footer-subscribe {
+    text-align: center;
+    width: 90%;
+    margin-left: 40px;
+}
+
+footer .subscribe input.form-control {
+    width: 50%;
+    margin: auto;
+    border: none;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid;
+    border-radius: 0;
+}
+
+footer .subscribe input.form-control::placeholder {
+    text-align: center;
+    color: #838383;
+    opacity: 0.5;
+}
+
+.btn-sub {
+    background-color: var(--sub);
+    color: var(--nav-link-text-color);
+    padding: 10px 45px 8px 45px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+
+.semibold {
+    font-family: semibold;
+}
+
+.modal-mine {
+    width: 26%;
+}
+
+.mine-modal {
+    display: none;
+}
+
+.mine-modal {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.cross {
+    width: 5%;
+    float: right;
+    cursor: pointer;
+}
+
+.signup-title {
+    font-size: 24px;
+    color: #333333;
+}
+
+.your-name {
+    font-size: 12px;
+    color: #434343;
+}
+
+.btn-signup {
+    color: white;
+    font-size: 12px;
+    margin-top: 40px;
+    padding: 3% 44%;
+    border-radius: 20px;
+}
+
+.btn.btn-red {
+    background: #ff5959;
+    box-shadow: 2px 4px 24px #00000033;
+}
+
+.btn.btn-red:hover {
+    background: #EE394C;
+    box-shadow: 2px 6px 28px #00000026;
+}
+
+.last-signup {
+    font-size: 12px;
+    color: #434343;
+}
+
+.log-in {
+    color: #ff5959;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.log-in:hover {
+    color: #EE394C;
+}
+
+.form-place::placeholder {
+    font-size: 12px;
+}
+
+.modal-about {
+    background-color: #DADADA;
+    padding: 16px 10px 16px 10px;
+}
+
+.modal-about-title {
+    font-size: 12px;
+    color: #434343;
+}
+
+.modal-about-desc {
+    font-size: 12px;
+    color: #6E6E6E;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.modal-launch {
+    padding: 16px 10px 16px 10px;
+}
+
+.btn-signup-about {
+    color: white;
+    background-color: #ff5959;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 3% 42%;
+}
+
+.mine-modal-login {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}

@@ -1,0 +1,129 @@
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    ul.nav.navbar-nav {
+        width: 100%;
+        padding: 0px 15px;
+        margin: 0 !important;
+        text-align: left;
+        padding-top: 15px;
+    }
+    li.dropdown.open ul.dropdown-menu {
+        display: block !important;
+    }
+    li.dropdown ul.dropdown-menu {
+        display: none !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 0px;
+    }
+    a.btn.btn-red {
+        margin-left: 0 !important;
+    }
+    .collapse.navbar-collapse.js-navbar-collapse {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .collapse.navbar-collapse.js-navbar-collapsing {
+        background: none;
+        border: none;
+        box-shadow: none;
+    }
+    .navbar-default .navbar-nav>li>a {
+        padding: 15px 0px;
+    }
+    .text {
+        margin-top: 0;
+    }
+    section.main {
+        padding: 2em 0;
+    }
+    .inline {
+        display: flex;
+    }
+    .inline.sp span.text {
+        margin-left: 50px;
+        padding-top: 0px;
+        margin-right: 5px;
+    }
+    img.banner-img {
+        display: none;
+    }
+    .why-box.red {
+        margin-top: 2em;
+    }
+    .col-md-4.abs-left {
+        margin-top: 2em;
+        width: 100%;
+        margin-left: 0;
+    }
+    .col-md-4.abs-top {
+        margin-top: 2em;
+    }
+    .col-md-4.abs-lr {
+        margin-top: 2em;
+    }
+    img.courses-img {
+        position: initial;
+        margin-bottom: 15px;
+        width: 30%;
+    }
+    .courses-box .col-md-7 {
+        padding: 0 15px;
+        margin-top: 2em;
+    }
+    .courses-box {
+        margin-bottom: 2em;
+    }
+    .student-info {
+        visibility: hidden;
+        margin-top: -15px;
+        margin-bottom: -15px;
+    }
+    .footer-subscribe {
+        text-align: left;
+        width: 100%;
+        margin-bottom: 2em;
+        margin-top: 2em;
+    }
+    .user {
+        width: 50%;
+    }
+    .last-upper {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .get-started {
+        margin-left: 5%;
+    }
+    footer .subscribe input.form-control {
+        width: 100%;
+    }
+    .arrow {
+        width: 10%;
+    }
+    .student-right {
+        display: none;
+    }
+    .student-right1 {
+        display: none;
+    }
+    .get {
+        margin-left: 0;
+    }
+    .arrow1 {
+        width: 8%;
+    }
+    .btn-sub {
+        margin-left: 32%;
+    }
+    .btn-none {
+        display: none;
+    }
+    .relative {
+        display: none;
+    }
+    .modal-mine {
+        width: 70%;
+        left: 13%;
+    }
+}
